@@ -1,2 +1,11 @@
-.process.env
-/node_modules
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de entorno
+process.env
+*.env
+.env*
+
+# Otros archivos/directorios a ignorar (opcional)
+.DS_Store
+.vscode/
